@@ -1,5 +1,5 @@
 # WebPortalApplication [![Build Status](https://travis-ci.com/AMitchell719/WebPortalApplication.svg?branch=master)](https://travis-ci.com/AMitchell719/WebPortalApplication)
-Author(s): Aaron Mitchell
+Author(s): Aaron Mitchell,
 		   Donald Aguinaldo
 
 A web portal application and frontend for Administrators to login and use
