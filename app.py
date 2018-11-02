@@ -20,5 +20,9 @@ def hr():
 def management():
     return render_template('management.html')
 
+@app.route('/reset')
+def reset():
+    return render_template('reset.html')
+
 if __name__ == '__main__':
     app.run()
