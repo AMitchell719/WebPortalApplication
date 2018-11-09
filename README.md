@@ -8,6 +8,10 @@ Dependencies: Flask and Python 3.4 or later, or the Anaconda stack, Pytest
 
 Task List:
 
+11-9-2018 - Management users (COO, CEO, District Head) can now login to the portal -Aaron
+
+11-5-2018 - HR users can now login to the portal -Aaron
+
 11-2-2018 - IT users can now login to the portal. Passwords are now hidden from view -Aaron
 
 11-1-2018 - Added functionality for users to reset their password -Aaron
