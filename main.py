@@ -2,8 +2,8 @@ from user import User
 import webbrowser
 import getpass
 
-user1 = User('Mark', 'madCat243', 'IT', 468392, 2814838288)
-user2 = User('Donatello', 'madCat243', 'HR', 468392, 2814838288)
+user1 = User('Mark', 'madCat243', 'IT', 1528839, 2814838288)
+user2 = User('Donatello', 'madCat243', 'HR', 5639202, 2053924282)
 user3 = User('Bryan', 'madCat243', 'Management', 468392, 2814838288)
 
 flag = True
