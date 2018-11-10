@@ -2,18 +2,28 @@
 <html>
     <head>
         <title>HR Administration Portal</title>
-        <link rel="stylesheet" type="text/css" href="#">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
 
-        <span id="hello"><h1>Hello, Donatello!</h1></span>
-        <p>You are using the Administration Portal. Please be sure to
-        logout after use. <br /><br />
+        <span id="hello"><h3 padding=5px><img src="user.png" width=15px height=15px>Hello, Donatello!</h3></span>
 
+        <table id="toolbar" align="right" cellspacing="10"> 
+            <tr>
+                <td><img src="home.svg" width=15px height=15px>Home</td>
+                <td><img src="logout.svg" width=15px height=15px>Logout</td>
+            </tr>
+        </table>
+
+        <h2>You are using the Administration Portal. Please be sure to
+        logout after use. </h2><br />
+
+        <p id="info">
         Role: HR Admin<br /> <!-- Can grab these variables in Flask -->
         ID: 5639202<br />  <!-- Can grab these variables in Flask -->
         Phone: 205-392-4282<br /> <!-- Can grab these variables in Flask -->
-        <br /> <br />
+        </p><br />
+        
         <span id="notice">Please notice:</span>&nbsp;&nbsp; Links will redirect to a foreign web application</p><br /><br />
 
             HR Administration Links:<br />
@@ -39,7 +49,7 @@
                 <li><a href="http://localhost:5000/redirect">Health and Safety Information</a></li>
             </ul>
             <div align="center">
-                <p id="copyright">This web portal and application &copy; copyright 2018</p>
+                <br /><p id="copyright">This web portal and application &copy; copyright 2018</p>
             </div>
     </body>
 </html>

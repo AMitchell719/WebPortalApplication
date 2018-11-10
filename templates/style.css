@@ -1,0 +1,41 @@
+html {
+	font-family: sans-serif;
+}
+
+body {
+	background-color: white;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+ul {
+	border-style: double;
+	border-color: black;
+	margin-right: 800px;
+}
+
+#hello {
+	text-transform: uppercase;
+	text-align: right;
+}
+
+#toolbar {
+
+}
+
+#info {
+	border-style: double;
+	border-color: black;
+	margin-right: 800px;
+	border
+}
+
+#notice {
+	text-decoration-style: italic;
+	border-left: 5px solid red;
+	border-color: red;
+}
+
+
