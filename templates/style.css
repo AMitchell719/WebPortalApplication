@@ -1,5 +1,5 @@
 html {
-	font-family: sans-serif;
+	font-family: 'Noto Sans JP';
 }
 
 body {
@@ -16,13 +16,18 @@ ul {
 	margin-right: 800px;
 }
 
+.taskbar {
+	float: right;
+	word-spacing: 10px;
+}
+
 #hello {
 	text-transform: uppercase;
 	text-align: right;
 }
 
 #toolbar {
-
+	border-style: 
 }
 
 #info {
@@ -33,6 +38,7 @@ ul {
 }
 
 #notice {
+	background-color: lightgray;
 	text-decoration-style: italic;
 	border-left: 5px solid red;
 	border-color: red;

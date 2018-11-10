@@ -3,28 +3,29 @@
     <head>
         <title>HR Administration Portal</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
     </head>
     <body>
 
-        <span id="hello"><h3 padding=5px><img src="user.png" width=15px height=15px>Hello, Donatello!</h3></span>
+        <span id="hello">
+            <h3 padding=2px><img src="user.png" width=15px height=15px>Hello, Donatello!</h3>
+        </span>
 
-        <table id="toolbar" align="right" cellspacing="10"> 
-            <tr>
-                <td><img src="home.svg" width=15px height=15px>Home</td>
-                <td><img src="logout.svg" width=15px height=15px>Logout</td>
-            </tr>
-        </table>
+        <div class="taskbar">
+            <img src="home.svg" padding=2px width=15px height=15px>Home
+            <img src="logout.svg" padding=2px width=15px height=15px>Logout
+        </div> <br> <br>
 
-        <h2>You are using the Administration Portal. Please be sure to
-        logout after use. </h2><br />
+        <h1> Human Resources </h1>
 
-        <p id="info">
-        Role: HR Admin<br /> <!-- Can grab these variables in Flask -->
-        ID: 5639202<br />  <!-- Can grab these variables in Flask -->
-        Phone: 205-392-4282<br /> <!-- Can grab these variables in Flask -->
-        </p><br />
-        
-        <span id="notice">Please notice:</span>&nbsp;&nbsp; Links will redirect to a foreign web application</p><br /><br />
+        <!-- 
+            Will add drop down menu for links.
+            Will include images.
+        -->
+
+        <span id="notice"><strong>NOTICE</strong>: Links will redirect to a foreign web application</span>
+
+        <br /><br />
 
             HR Administration Links:<br />
             <ul>
@@ -48,8 +49,8 @@
                 <li><a href="http://localhost:5000/redirect">Report Violation</a></li>
                 <li><a href="http://localhost:5000/redirect">Health and Safety Information</a></li>
             </ul>
-            <div align="center">
+            <footer align="center">
                 <br /><p id="copyright">This web portal and application &copy; copyright 2018</p>
-            </div>
+            </footer>
     </body>
 </html>
