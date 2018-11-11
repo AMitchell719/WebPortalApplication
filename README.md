@@ -8,6 +8,8 @@ Dependencies: Flask and Python 3.4 or later, or the Anaconda stack, Pytest
 
 Task List:
 
+11-11-2018 - Added weekly checklist to ensure project quality and health - Aaron
+
 11-10-2018 - Website redesign in progress. Adding usability enhancements -Don
 
 11-9-2018 - External Web Application links are now fully functional -Aaron
