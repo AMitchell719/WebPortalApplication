@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Reset</title>
+        <link rel="stylesheet" type="text/css" href="#">
+    </head>
+    <body onload="alertFunction()">
+
+        <script type="text/javascript">
+        function alertFunction() {
+            alert("Password is invalid. Please enter your information to reset your password");
+        }
+        </script>
+
+        <script type="text/javascript">
+        function submitFunction() {
+            alert("Information submitted. Please allow up to 24 hours. If this is an emergency, please contact the IT department");
+        }
+        </script>
+
+        <h3>Password Reset</h3><br />
+
+        <form>
+            Username:<br />
+            <input type="text" name="username" value=""><br /><br />
+
+            Password:<br />
+            <input type="password" name="password"><br /><br />
+
+            Department:<br />
+            <select name="department">
+                <option value="it">Information Technology</option>
+                <option value="hr">Human Resources</option>
+                <option value="management">Management</option>
+                <option value="other">Other</option>
+            </select><br /><br />
+
+            Phone:<br />
+            <input type="text" name="phone"><br /><br />
+
+            ID:<br />
+            <input type="text" name="id"><br /><br />
+
+            Email:<br />
+            <input type="text" name="email"><br /><br />
+
+            <input type="submit" value="Submit" onclick="submitFunction()">
+            <input type="reset">
+        </form>
+
+            <div align="center">
+                <p id="copyright">This web portal and application &copy; copyright 2018</p>
+            </div>
+    </body>
+</html>
