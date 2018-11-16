@@ -12,7 +12,7 @@ Task List:
 
 11-15-2018 - Beginning work on website for customer portal -Don/Aaron
 
-11-14-2018 - Rewinding websites to previous state. Security flaw detected. Goal is a functioning product first, design second -Don
+11-14-2018 - Undoing website changes. Security flaw detected. Goal is a functioning product first, design second -Don
 
 11-11-2018 - Added weekly checklist to ensure project quality and health -Aaron
 
