@@ -8,7 +8,13 @@ Dependencies: Flask and Python 3.4 or later, or the Anaconda stack, Pytest
 
 Task List:
 
-11-11-2018 - Added weekly checklist to ensure project quality and health - Aaron
+11-16-2018 - Added website blocking capabilities for both IT admins and management -Aaron
+
+11-15-2018 - Beginning work on website for customer portal -Don/Aaron
+
+11-14-2018 - Rewinding websites to previous state. Security flaw detected. Goal is a functioning product first, design second -Don
+
+11-11-2018 - Added weekly checklist to ensure project quality and health -Aaron
 
 11-10-2018 - Website redesign in progress. Adding usability enhancements -Don
 
