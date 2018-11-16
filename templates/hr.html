@@ -2,31 +2,19 @@
 <html>
     <head>
         <title>HR Administration Portal</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="#">
     </head>
-    <body style="background-image: url('dev_pic.jpeg')">
+    <body>
 
-        <div class="topNavBar">
-            <a href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-            <a style="float: right"><img src="user.png" height=20px width=20px></a>
-            <p id="welcome" style="float: right">Welcome, HR!</p>
-        </div>
+        <span id="hello"><h1>Hello, Donatello!</h1></span>
+        <p>You are using the Administration Portal. Please be sure to
+        logout after use. <br /><br />
 
-        <section>
-            <p id="notice"><strong>NOTICE</strong>: Links will redirect to a foreign web application.</p>
-            <h1 id="companyName">Company Web Name</h1>
-        </section>
-
-        <!-- 
-            Will add drop down menu for links.
-            Will include images.
-        -->
-
-      <!--   <br />
+        Role: HR Admin<br /> <!-- Can grab these variables in Flask -->
+        ID: 5639202<br />  <!-- Can grab these variables in Flask -->
+        Phone: 205-392-4282<br /> <!-- Can grab these variables in Flask -->
+        <br /> <br />
+        <span id="notice">Please notice:</span>&nbsp;&nbsp; Links will redirect to a foreign web application</p><br /><br />
 
             HR Administration Links:<br />
             <ul>
@@ -50,9 +38,8 @@
                 <li><a href="http://localhost:5000/redirect">Report Violation</a></li>
                 <li><a href="http://localhost:5000/redirect">Health and Safety Information</a></li>
             </ul>
-
-            <footer align="center">
-                <br /><p id="copyright">This web portal and application &copy; copyright 2018</p>
-            </footer> -->
+            <div align="center">
+                <p id="copyright">This web portal and application &copy; copyright 2018</p>
+            </div>
     </body>
 </html>
