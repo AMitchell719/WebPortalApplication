@@ -2,20 +2,13 @@
 <html>
     <head>
         <title>Management Administration Portal</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="#">
     </head>
     <body>
 
-        <table id="toolbar" align="right" cellspacing="10"> 
-            <tr>
-                <td><img src="home.svg" width=15px height=15px>Home</td>
-                <td><img src="logout.svg" width=15px height=15px>Logout</td>
-                <td><span id="hello"><h3 padding=5px><img src="user.png" width=15px height=15px>Hello, Bryan!</h3></span></td>
-            </tr>
-        </table>
-
-<!--         <h2>You are using the Administration Portal. Please be sure to
-        logout after use.</h2> <br /> -->
+        <span id="hello"><h1>Hello, Bryan!</h1></span>
+        <p>You are using the Administration Portal. Please be sure to
+        logout after use. <br /><br />
 
         Role: COO<br /> <!-- Can grab these variables in Flask -->
         ID: 2468392<br />  <!-- Can grab these variables in Flask -->
@@ -24,6 +17,7 @@
         <span id="notice">Please notice:</span>&nbsp;&nbsp; Links will redirect to a foreign web application</p><br /><br />
 
             Management Administration Links:<br />
+            <p>You are now able to specify websites that can be blocked. This will overide IT Admin Blacklist </p>
             <ul>
                 <li><a href="http://localhost:5000/redirect">Employees</a></li>
                 <li><a href="http://localhost:5000/redirect">Meetings</a></li>
@@ -33,6 +27,7 @@
                 <li><a href="http://localhost:5000/redirect">Your Calander</a></li>
                 <li><a href="http://localhost:5000/redirect">Contacts</a></li>
                 <li><a href="http://localhost:5000/redirect">News and Updates</a></li>
+                <li><a href="http://localhost:5000/redirect">Website Blacklist</a></li>
             </ul>
             <br />
 
