@@ -16,6 +16,10 @@ def ituser():
 def links_it():
     return render_template('links-it.html')
 
+@app.route('/links_management')
+def links_management():
+    return render_template('links-management.html')
+
 @app.route('/redirect')
 def redirect():
     return render_template('redirect.html')
