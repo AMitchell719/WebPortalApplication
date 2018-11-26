@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Management Administration Portal</title>
+        <link rel="stylesheet" type="text/css" href="#">
+    </head>
+    <body>
+
+        <span id="hello"><h1>Hello, Bryan!</h1></span>
+        <p>You are using the Administration Portal. Please be sure to
+        logout after use. <br /><br />
+
+        Role: COO<br /> <!-- Can grab these variables in Flask -->
+        ID: 2468392<br />  <!-- Can grab these variables in Flask -->
+        Phone: 281-522-3838<br /> <!-- Can grab these variables in Flask -->
+        <br /> <br />
+        <span id="notice">Please notice:</span>&nbsp;&nbsp; Links will redirect to a foreign web application</p><br />
+
+
+            <h5>Please select the links that you would like to have displayed for users</h5>
+
+            Management Administration Links:<br />
+            <form action="http://localhost:5000/updatelinks">
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Employees</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Meetings</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Department Reports</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Weekly Reports</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Your Calander</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Contacts</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">News and Updates</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Website Blacklist</a><br /><br />
+
+            IT Admin Links: <br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Active Directory</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Employee Lookup</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Escalation</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Phone Numbers</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Password Resets</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">IT Calander</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Floor Plan</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Data Center Layout</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Website Blacklist</a><br /><br />
+
+            HR Administration Links:<br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Payroll</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Tax Exemptions</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Employee Complaints</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Lawfirm</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Legal Issues</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">HR Calander</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Pay Adjustments</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">401k Information</a><br /><br />
+
+            Global Admin Links: <br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Company Map</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Company Calander</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Emergency Numbers</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Building Plan</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Password Resets</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Report Violation</a><br />
+                <input type="checkbox">
+                <a href="http://localhost:5000/redirect">Health and Safety Information</a><br /><br />
+
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </form>
+
+            <div align="center">
+                <p id="copyright">This web portal and application &copy; copyright 2018</p>
+            </div>
+    </body>
+</html>
